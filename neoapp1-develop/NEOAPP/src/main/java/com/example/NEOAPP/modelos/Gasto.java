@@ -33,7 +33,7 @@ public class Gasto {
     @Column(name = "Fecha", nullable = false, unique = false)
     private LocalDate fecha;
 
-    @Column(name = "Valor", nullable = false, unique = false, precision = 10, scale = 2)
+    @Column(name = "Valor", nullable = false, unique = false)
     private Double valor;
 
     @Enumerated(EnumType.STRING)
